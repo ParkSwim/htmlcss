@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CSS 우선 순위</title>
+  
+  <style>
+    p { color : blue;}
+    header h3 {background-color : green;}
+  </style>
+
+</head>
+<body>
+  <p>순서 캐스케이딩</p>
+
+<header>
+    <h3>디테일 캐스케이딩</h3>
+</header>
+
+<h4 style = "color:green;" id="color" class="color">선택자 캐스케이딩</h4>
+  
+  
+</body>
+</html>
+
+<!-- 
+순서에 의한 캐스케이딩 : 나중에 적용한 속성 값의 우선 순위가 높음.
+디테일에 의한 캐스케이딩 : 더 구체적으로 작성된 선택자의 우선 순위가 높음.
+선택자에 의한 캐스케이딩 : style > id > class> type 순 으로 우선 순위가 높음.
+-->

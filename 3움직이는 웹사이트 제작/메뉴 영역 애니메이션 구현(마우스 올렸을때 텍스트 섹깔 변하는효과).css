@@ -78,8 +78,12 @@ ol, ul {
 
 #intro nav ul li a {
     font-size: 20px; font-weight: bold;
+    transition: color 0.3s;
 }
 
+#intro nav ul li a:hover {
+    color: #917f7f;
+}
 
 
 /* Main CSS */
